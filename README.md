@@ -48,6 +48,7 @@ To run the demo you will first need to download the prepared dataset and pretrai
 
 Place the dataset under the Data folder and unzip it. You should end up with this structure:
 
+```
 Data
    L dataset_resized
       L train
@@ -56,6 +57,7 @@ Data
       L val
          L density_map
          L images
+``````
 
 Place the weights under the pretrained folder.
 
@@ -66,6 +68,7 @@ Run the following command to run the demo. Make sure you finished the installati
 
 Download the official VisDrone-Dataset for Crowd Counting from [here](https://github.com/VisDrone/VisDrone-Dataset), place it under the Data folder and unzip it. You should end up with this structure:
 
+```
 Data
    L VisDrone2020-CC
       L annotations
@@ -78,6 +81,7 @@ Data
          ...
       L testlist.txt
       L trainlist.txt
+```
 
 Run the ***Dataset_Preparation.ipynb*** notebook. It wil walk you through creating the train, test, val sets, data resizing and the creation of the ground truth density maps. A new dataset directory will be created which will be used for the next part.
 
