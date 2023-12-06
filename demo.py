@@ -23,6 +23,10 @@ def main(path, weights):
     print(len(frame_files))
     
     output_path = 'outputs/output_video.avi'
+
+    if not os.path.exists('outputs'):
+        os.makedirs('outputs')
+
     # Initialize video writer
     first_frame = cv2.imread(os.path.join(frame_dir, frame_files[0]))
     frame_height, frame_width = first_frame.shape[:2]
