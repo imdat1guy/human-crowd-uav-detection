@@ -2,7 +2,7 @@
 
 This repo contains our implementation of CrowdNet, a model for Human Crowd Detection from UAV Footage.
 
-![results](img/architecture.png)
+![results](img/CrowdNet_Results.png)
 
 Human Crowd detection, a pivotal component of computer vision, has wide-ranging applications in video surveillance, public safety, and crowd analysis. This research explores the challenges and advancements in UAV-based crowd counting. The proposed Convolutional Neural Network (CNN) model combines VGG-16 for feature extraction and a specialized density estimation backend. Using the VisDrone2020-CC dataset, the model achieves a Mean Absolute Error of 68, revealing the complexities of occlusion and dynamic crowd scenarios. While indicating moderate performance, this study sets the stage for future improvements, emphasizing the need for advanced feature extraction techniques and comprehensive training datasets to enhance precision in UAV-based crowd-counting.
 
