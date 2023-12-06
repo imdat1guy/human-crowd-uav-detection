@@ -57,9 +57,14 @@ Data
       L val
          L density_map
          L images
-``````
+```
 
 Place the weights under the pretrained folder.
+
+```
+pretrained
+   L task_one_model_best.pth.tar
+```
 
 Run the following command to run the demo. Make sure you finished the installation above to have the required libraries installed.
 `python demo.py --path Data/dataset_resized/val`
