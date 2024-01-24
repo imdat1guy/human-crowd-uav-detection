@@ -99,8 +99,3 @@ Run the ***Crowdnet.ipynb*** notebook. This notebook will walk you through:
 - Visualization and Demo Inference
 
 *Make sure the paths in the notebooks are appropriate as you go through it*.
-
-
-## Credit
-
-This repo was made by Abduraouf Hassan, Awet Araia and Hermon Teklesenbet for the Machine Learning and Applications course at Khalifa University. We extend our gratitude to Professor Panos Liatsis for his invaluable guidance and support.
